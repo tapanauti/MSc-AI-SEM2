@@ -1,0 +1,75 @@
+```{r}
+# Part 2
+
+library(ggplot2)
+library (dplyr)
+library(countrycode)
+library(lubridate)
+
+
+# Data Preprocessing
+
+oecdpisa =  read.csv(file = 'OECD_PISA.csv')
+new_csv <- subset(oecdpisa, TIME==2018 )
+new_csv <- select(new_csv,ï..LOCATION,SUBJECT,Value)
+names(new_csv)[names(new_csv)== 'ï..LOCATION'] <- 'Location'
+names(new_csv)[names(new_csv)== 'SUBJECT'] <- 'Gender'
+new_csv <- new_csv[!(new_csv$Gender=='TOT'),]
+new_csv$Location <- countrycode(new_csv$Location, origin = "iso3c", destination = "country.name")
+new_csv$Location[73] <- 'OECD -Average'
+new_csv$Location[74] <- 'OECD -Average'
+
+# sort based on gender and relative values
+
+new_csv <- new_csv[with(new_csv, order(Gender,Value)),]
+
+# convert location to factor to keep the order same in plotting
+
+new_csv$Location <- factor(new_csv$Location, levels = unique(new_csv$Location), ordered =TRUE)
+
+
+#plotting
+new_csv$highlight <-ifelse(new_csv$Location=='Ireland',"highlight","normal")
+mycolors <-c("highlight" = "red", "normal" = "darkblue","gl" = "black")
+new_csv$highlight[21] <- 'gl'
+new_csv$highlight[62] <- 'gl'
+
+
+
+gg <-ggplot(new_csv, (aes(x= Location, y=Value, group = Gender,ylab=''))) +
+    theme(panel.background = element_rect(fill = "lightblue1",colour = "lightblue1"),axis.text.x = element_text(angle = 45, size = 6,vjust = 1, hjust = 1),axis.ticks.y = element_blank(),axis.ticks.x = element_blank(),axis.title.x = element_blank(),axis.title.y = element_blank(), panel.grid.minor = element_blank(),panel.grid.major.x = element_blank(),axis.text.y = element_text(vjust = -0.7,margin = margin(l = 100, r = -20)),legend.position = 'bottom', legend.title =element_blank())+
+  scale_y_continuous(limits = c(340,560),breaks = seq(340,560,by = 20))+
+  geom_point(aes(shape = Gender, size=Gender, colour = highlight ), size=2.5)+
+  scale_shape_manual(values=c(19,5),name = "Gender")+
+  guides(color = FALSE)+
+  scale_color_manual("Status", values = mycolors)+
+   ggtitle("Reading performance (PISA)")
+
+new_csv
+gg
+
+
+#Part 3
+
+# Data Preprocessing
+oecdpisa1 =  read.csv(file = 'OECD_PISA.csv')
+new_csv1 <- subset(oecdpisa1, ï..LOCATION =='IRL')
+new_csv1 <- select(new_csv1,SUBJECT,Value,TIME)
+names(new_csv1)[names(new_csv1)== 'ï..LOCATION'] <- 'Location'
+names(new_csv1)[names(new_csv1)== 'SUBJECT'] <- 'Gender'
+new_csv1 <- new_csv1[!(new_csv1$Gender=='TOT'),]
+new_csv1 <- new_csv1[with(new_csv1, order(Gender,Value)),]
+
+new_csv1$TIME <-factor(new_csv1$TIME,levels = unique(new_csv1$TIME), ordered = T)
+
+gg1 <- ggplot(new_csv1, aes(x = TIME, y = Value, group = Gender)) +  theme(panel.background = element_rect(fill = "lightblue1",colour = "lightblue1"),axis.text.x = element_text(angle = 45, size = 10,vjust = 1, hjust = 1),axis.ticks.y = element_blank(),axis.ticks.x = element_blank(),axis.title.x = element_blank(),axis.title.y = element_blank(), panel.grid.minor = element_blank(),panel.grid.major.x = element_blank(),axis.text.y = element_text(vjust = -0.7,margin = margin(l = 100, r = -20)),legend.position = 'bottom', legend.title =element_blank())+
+  scale_y_continuous(limits = c(340,560),breaks = seq(340,560,by = 20))+
+  geom_point(aes(shape = Gender, size=Gender), size=2.5, color = "darkblue")+
+  scale_shape_manual(values=c(19,5),name = "Gender")+
+  guides(color = FALSE)+
+   ggtitle("Reading performance (PISA) for Ireland")
+
+new_csv1
+gg1
+```
+

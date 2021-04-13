@@ -1,0 +1,150 @@
+```{r}
+library("readxl")
+library(ggplot2)
+library (dplyr)
+
+
+election2016 <- read.csv(file = 'elections2016.csv')
+new_csv <- subset(election2016,  Count.Number==1 )
+demo = aggregate(new_csv$Total.Votes, by=list(Party=new_csv$Party),FUN=sum)
+names(demo)[names(demo)== 'x'] <- 'Votes2016'
+
+new_xl <- read_excel('2020-election.xlsx')
+new_xl$...5 <- as.numeric(new_xl$...5)
+demo2 = aggregate(new_xl$...5, by=list(Party=new_xl$...2),FUN=sum)
+names(demo2)[names(demo2)== 'x'] <- 'Votes2020'
+demo$Party[6] <- 'Independent'
+demo2$Party[2] <- 'Fianna Fail'
+demo2$Party[7] <-'Sinn Fein'
+demo$Party[4] <-'Fine Gael'
+demo2$Party[8] <-'Social Democratic Party'
+
+zz <- merge(demo, demo2, all = TRUE)
+zz[is.na(zz)] <- 0
+#print(zz)
+
+last_part <- subset(election2016 , Result == 'Elected')
+last_part <- select(last_part,Candidate.First.Name,Total.Votes)
+last_part$Candidate.First.Name[1] <-"Eamon"
+#print(last_part)
+
+last_part_2 <- select(new_xl, ...3,...5)
+last_part_2$...5 <- as.numeric(new_xl$...5)
+names(last_part_2)[names(last_part_2)== '...5'] <- 'Total.Votes2020'
+names(last_part_2)[names(last_part_2)== '...3'] <- 'Candidate.First.Name'
+
+last_part_2 <-last_part_2[-c(1,4,5,8,9,10,11,12,13,14,15,16,17),]
+last_part <-last_part[-c(5),]
+last_part <-arrange(last_part,Candidate.First.Name)
+last_part_2 <-arrange(last_part_2,Candidate.First.Name)
+last_part_2 <- last_part_2[-c(1)]
+last_part_2 <- cbind(last_part_2,last_part$Candidate.First.Name)
+names(last_part_2)[names(last_part_2)== 'last_part$Candidate.First.Name'] <- 'Candidate.First.Name'
+last_part <-merge(last_part,last_part_2)
+
+
+last_part$Total.Votes <- as.factor(last_part$Total.Votes)
+mx <-ggplot(data=last_part, aes(x=Total.Votes, y=Total.Votes2020, fill=Candidate.First.Name)) +
+  geom_bar(stat="identity", position=position_dodge(),xlab = "Votes 2016", ylab = "Votes 2020")+
+  scale_fill_brewer(palette="Paired")+labs(title = "2016 Elected candidates' performance in 2020", x = "Votes 2016", y = "Votes 2020", fill ="Candidate Names" )+
+  
+  theme_minimal()
+
+# print(last_part_2)
+ #print(last_part)
+
+
+zz$Type <- 'GalwayWest'
+
+nv <- read.csv(file = "NationalVotes.csv")
+colnames(nv)[2] <- "Votes2016"
+colnames(nv)[3] <- "Votes2020"
+colnames(nv)[1] <- "Party"
+nv$Party[2] <- "Aontú"
+nv$Party[12] <-"Solidarity–PBP"
+nv$Type <-"NationalVotes"
+
+zz <- zz%>%mutate(Percentage2016=paste0(round(Votes2016/sum(Votes2016)*100,2),"%"))
+zz <- zz%>%mutate(Percentage2020=paste0(round(Votes2020/sum(Votes2020)*100,2),"%"))
+
+
+
+nv <- nv%>%mutate(Percentage2016=paste0(round(Votes2016/sum(Votes2016)*100,2),"%"))
+nv <-nv%>%mutate(Percentage2020=paste0(round(Votes2020/sum(Votes2020)*100,2),"%"))
+national_votes <- rbind(zz,nv)
+
+
+# print(zz)
+# print(nv)
+ #print(national_votes)
+
+g <-ggplot(zz, (aes(x= Party , y=Votes2016))) + 
+  geom_col(alpha=0.85, width = 0.7, fill = "deepskyblue4") +
+    theme(panel.background = element_rect(fill = "white"),
+      axis.line.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.line.x = element_blank(),
+      axis.ticks.x = element_blank(),
+      axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
+      axis.title.x = element_blank(),
+      plot.margin = margin(3, 6, 3, 3),
+      panel.grid.major.y = element_line(size = 0.2, linetype = 'solid',colour = "lightgrey"))+
+  ggtitle("Galway West 2016 elections")
+
+
+gg <-ggplot(zz, (aes(x= Party , y=Votes2020))) + 
+  geom_col(alpha=0.85, width = 0.7, fill = "deepskyblue4") +
+    theme(panel.background = element_rect(fill = "white"),
+      axis.line.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.line.x = element_blank(),
+      axis.ticks.x = element_blank(),
+      axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
+      axis.title.x = element_blank(),
+      plot.margin = margin(3, 6, 3, 3),
+      panel.grid.major.y = element_line(size = 0.2, linetype = 'solid',colour = "lightgrey"))+
+  ggtitle("Galway West 2020 elections")
+
+cb <-ggplot(zz , aes(x=Votes2016,y=Votes2020, group = Party) ) +
+geom_point(aes(shape = Party, size=Party)) +
+  xlim(0,18000)+ylim(0,18000)+
+  scale_x_continuous(breaks = c(1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,11000,12000,13000,14000,15000), labels = c('1k','2k','3k','4k','5k','6k','7k','8k','9k','10k','11k','12k','13k','14k','15k'))+scale_y_continuous(breaks = c(1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,11000,12000,13000,14000,15000), labels = c('1k','2k','3k','4k','5k','6k','7k','8k','9k','10k','11k','12k','13k','14k','15k'))+
+
+scale_shape_manual(values=c(0,1,2,17,4,5,6,7,8,15,16,3,12),name = "Party",
+labels = c("AAA", "Aontú","Direct Democracy Ireland","Fianna Fail","Fine Gael","Green Party","Independent","Labour Party","Renua","Sinn Fein","Social Democratic Party","Solidarity–PBP"))+
+scale_size_manual(values=c(2,2,2,2,2,2,2,2,2,2,2,2),guide = FALSE)+
+ggtitle("Votes in 2016 and 2020")+
+xlab("Total Votes 2016                                     1k = 1000") +
+ylab("Total Votes 2020") +
+theme_bw() +
+theme(legend.title = element_text(face = "bold",size = 10) ,
+legend.text =element_text (face = "italic",size = 8) )
+
+
+
+national_votes$Percentage2016 <- as.numeric(sub("%","",national_votes$Percentage2016))
+national_votes$Percentage2020 <- as.numeric(sub("%","",national_votes$Percentage2020))
+#print(national_votes)
+
+p3 <-ggplot(national_votes, aes(x = Party, y = Percentage2016, fill = Type),xlim = c(0,100))+
+  geom_bar(stat = "identity")+
+  geom_text(aes(label = paste(Percentage2016,"%")),
+            position = position_stack( vjust = 1),check_overlap = TRUE,angle = 45)+
+  coord_flip()+
+  labs(x = "Party Name", y = "Percentage",fill = "Location")+ggtitle("2016 Elections")
+
+p3.2 <-ggplot(national_votes, aes(x = Party, y = Percentage2020, fill = Type),xlim = c(0,100))+
+  geom_bar(stat = "identity")+
+  geom_text(aes(label = paste(Percentage2020,"%")),
+            position = position_stack( vjust = 1),check_overlap = TRUE, angle = 45)+
+  coord_flip()+
+  labs(x = "Party Name", y = "Percentage",fill = "Location")+ggtitle("2020 Elections")
+g
+gg
+cb
+p3
+p3.2
+mx
+
+```
+
