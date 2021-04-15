@@ -129,6 +129,7 @@ for i=1:numel(imagefiles1)
     I = imread(filename);
     I = rgb2gray(I);
     J = imnoise(I,'gaussian',0,0.15);
+    imshow(J);
     nocap=capmissing(J);    
     if nocap
         c = c + 1;
@@ -136,6 +137,7 @@ for i=1:numel(imagefiles1)
     % Average spacial filtering
     h = fspecial('average',[5,5]);
     J2 = imfilter(J,h);
+    imshow(J2);
     nocap1=capmissing(J2);
     if nocap1
         c1 = c1 + 1;
@@ -143,6 +145,7 @@ for i=1:numel(imagefiles1)
     %Gaussian spacial filtering
     h = fspecial('gaussian',[3,3],1);
     J3 = imfilter(J,h);
+    imshow(J3);
     nocap2=capmissing(J3);
     if nocap2
         c2 = c2 + 1;
@@ -160,6 +163,9 @@ for i=1:numel(imagefiles1)
     % the image)
     B2 = B.*mask;
     IMG=ifft2(B2);
+    figure; 
+    imagesc(abs(IMG)); 
+    axis image; axis off; colormap(gray)
     nocap1=capmissing(abs(IMG));
     if nocap1
         c3 = c3 + 1;
@@ -187,37 +193,32 @@ for i=1:numel(imagefiles1)
     for j=1:6
         switch j            
             case 1
-                J1 = imnoise(I,'gaussian',0,0);
-                IMG = fd(J1);
+                J1 = imnoise(I,'gaussian',0,0);               
                 nocap1=capmissing(abs(IMG));   
                 if nocap1
                     c1 = c1 + 1;
                 end
             case 2
                 J2 = imnoise(I,'gaussian',0,0.1);
-                IMG = fd(J2);
-                nocap1=capmissing(abs(IMG));    
+                nocap=capmissing(J2);    
                 if nocap
                     c2 = c2 + 1;
                 end
             case 3
                 J3 = imnoise(I,'gaussian',0,0.13);
-                IMG = fd(J3);
-                nocap1=capmissing(abs(IMG));    
+                nocap=capmissing(J3);    
                 if nocap
                     c3 = c3 + 1;
                 end
             case 4
                 J4 = imnoise(I,'gaussian',0,0.17);
-                IMG = fd(J4);
-                nocap1=capmissing(abs(IMG));   
+                nocap=capmissing(J4);    
                 if nocap
                     c4 = c4 + 1;
                 end
             case 5
                 J5 = imnoise(I,'gaussian',0,0.25);
-                IMG = fd(J5);
-                nocap1=capmissing(abs(IMG));    
+                nocap=capmissing(J5);    
                 if nocap
                     c5 = c5 + 1;
                 end
@@ -238,12 +239,6 @@ fprintf('Accuracy for noise of variance 0.17 is : %d \n',a4);
 a5 = c5 / numel(imagefiles1) * 100;
 fprintf('Accuracy for noise of variance 0.25 is : %d \n',a5);
 
-X = [a1,a2,a3,a4,a5];
-Y = [0,0.1,0.13,0.17,0.25];
-plot (X,Y,'*','MarkerSize',10);
-title('Performance of system with noise')
-ylabel('Variance')
-xlabel('Accuracy')
 % All Fault Functions
 
 
@@ -278,16 +273,9 @@ CM = blackv < 30;
 
 end
 
-function FD = fd(J)
-B=fft2(J); 
-B=fftshift(B);
-[rows, cols]=size(J);
-mask=zeros(rows,cols); 
-mask(96:192,118:235)=1; 
-%mask(108:180,132:220)=1;
-B2 = B.*mask;
-IMG=ifft2(B2);
-FD = IMG;
+function FD = fd(img)
+
+
 end
 
 
