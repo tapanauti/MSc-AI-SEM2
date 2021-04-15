@@ -133,14 +133,14 @@ for i=1:numel(imagefiles1)
     if nocap
         c = c + 1;
     end
-    % Average spacial filtering
+    % Average spatial filtering
     h = fspecial('average',[5,5]);
     J2 = imfilter(J,h);
     nocap1=capmissing(J2);
     if nocap1
         c1 = c1 + 1;
     end
-    %Gaussian spacial filtering
+    %Gaussian spatial filtering
     h = fspecial('gaussian',[3,3],1);
     J3 = imfilter(J,h);
     nocap2=capmissing(J3);
@@ -189,35 +189,35 @@ for i=1:numel(imagefiles1)
             case 1
                 J1 = imnoise(I,'gaussian',0,0);
                 IMG = fd(J1);
-                nocap1=capmissing(abs(IMG));   
+                nocap1=capmissing1(abs(IMG));   
                 if nocap1
                     c1 = c1 + 1;
                 end
             case 2
                 J2 = imnoise(I,'gaussian',0,0.1);
                 IMG = fd(J2);
-                nocap1=capmissing(abs(IMG));    
+                nocap1=capmissing1(abs(IMG));    
                 if nocap
                     c2 = c2 + 1;
                 end
             case 3
                 J3 = imnoise(I,'gaussian',0,0.13);
                 IMG = fd(J3);
-                nocap1=capmissing(abs(IMG));    
+                nocap1=capmissing1(abs(IMG));    
                 if nocap
                     c3 = c3 + 1;
                 end
             case 4
                 J4 = imnoise(I,'gaussian',0,0.17);
                 IMG = fd(J4);
-                nocap1=capmissing(abs(IMG));   
+                nocap1=capmissing1(abs(IMG));   
                 if nocap
                     c4 = c4 + 1;
                 end
             case 5
                 J5 = imnoise(I,'gaussian',0,0.25);
                 IMG = fd(J5);
-                nocap1=capmissing(abs(IMG));    
+                nocap1=capmissing1(abs(IMG));    
                 if nocap
                     c5 = c5 + 1;
                 end
@@ -288,6 +288,22 @@ mask(96:192,118:235)=1;
 B2 = B.*mask;
 IMG=ifft2(B2);
 FD = IMG;
+end
+
+
+function CM = capmissing1(img)
+
+%img = rgb2gray(img);
+
+cropimg = img(5:60 , 140:220);
+
+binary = imbinarize(cropimg,120);
+
+blackv = 100 * (sum(binary(:) == 0) / numel(binary(:)));
+
+pause(1);
+CM = blackv < 30;
+
 end
 
 

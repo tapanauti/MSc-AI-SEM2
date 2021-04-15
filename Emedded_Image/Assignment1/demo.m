@@ -5,3 +5,4 @@ plot (X,Y,'*','MarkerSize',10);
 title('Performance of system with noise')
 ylabel('Variance')
 xlabel('Accuracy')
+X = fspecial('average',[)
