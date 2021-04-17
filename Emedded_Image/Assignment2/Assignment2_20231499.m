@@ -57,7 +57,6 @@ a4 = c4 / numel(imagefiles) * 100;
 fprintf('Accuracy for noise of variance 0.9 is : %d \n',a4);
 a5 = c5 / numel(imagefiles) * 100;
 fprintf('Accuracy for noise of variance 1 is : %d \n',a5);
-%}
 % No Cap
 [c1,c2,c3,c4,c5]= deal(0);
 imagefiles1 = dir(fullfile(path1,'*.jpg'));
@@ -112,7 +111,7 @@ fprintf('Accuracy for noise of variance 0.13 is : %d \n',a3);
 a4 = c4 / numel(imagefiles1) * 100;
 fprintf('Accuracy for noise of variance 0.17 is : %d \n',a4);
 a5 = c5 / numel(imagefiles1) * 100;
-fprintf('Accuracy for noise of variance 0.25 is : %d \n',a5);
+fprintf('Accuracy for noise of variance 0.25 is : %d \n\n',a5);
 
 X = [a1,a2,a3,a4,a5];
 Y = [0,0.1,0.13,0.17,0.25];
@@ -171,8 +170,10 @@ fprintf('Accuracy for noise of variance 0.15 is : %d \n',a);
 fprintf('Part 2 Average Spacial filtering \n');
 a1 = c1 / numel(imagefiles1) * 100;
 fprintf('Accuracy after averaging spacial filter : %d \n',a1);
+fprintf('Part 2 Gaussian Spacial filtering \n');
 a2 = c2 / numel(imagefiles1) * 100;
 fprintf('Accuracy after gaussian spacial filter : %d \n',a2);
+fprintf('Part 2 Frequency Domain  filtering \n');
 a3 = c3 / numel(imagefiles1) * 100;
 fprintf('Accuracy after frequency domain filter : %d \n',a3);
 
