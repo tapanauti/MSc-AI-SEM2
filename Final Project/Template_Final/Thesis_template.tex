@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+% DOCUMENT CLASS
+\documentclass[oneside,12pt]{Classes/RoboticsLaTeX}
+
+% USEFUL PACKAGES
+% Commonly-used packages are included by default.
+% Refer to section "Book - Useful packages" in the class file "Classes/RoboticsLaTeX.cls" for the complete list.
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage{epigraph}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfpages}
+%\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage[acronym,toc]{glossaries}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage[table]{xcolor}
+\setstretch{1.5}
+%\onehalfspacing
+% SPECIAL COMMANDS
+% correct bad hyphenation
+\hyphenation{op-tical net-works semi-conduc-tor}
+\hyphenation{par-ti-cu-lar mo-du-le ge-stu-re}
+% INTERLINEA 1.5
+%\renewcommand{\baselinestretch}{1.5}
+
+%% ignore slightly overfull and underfull boxes
+%\hbadness=10000'
+%\hfuzz=50pt
+% declare commonly used operators
+%\DeclareMathOperator*{\argmax}{argmax}
+
+% HEADER
+\title{\Large{Thesis Title}}
+
+  \author{Name (ID)}
+  \collegeordept{School of Computer Science}
+  \university{National University of Ireland, Galway}
+  \crest{\includegraphics[width=75mm]{Figures/logo_NUI.png}}
+
+
+\supervisor{Name of Supervisor(s)}
+%\supervisor{Name of the Supervisor}
+%\supervisor{Name of the Co-Supervisor}	
+% \supervisor{Dr. Jane Smith}
+% \supervisorSecond{Dr. Mihael Arcan}
+
+% text before "In partial fulfillment of the requirements for the degree of" in .cls file/line 153\
+% replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
+\degree{MSc in Computer Science (PROGRAMME)}
+\degreedate{August 23, 2019}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% uncomment if glossary needed, see examples in file
+%\makeglossaries
+%\loadglsentries{glossary}
+
+\begin{document}
+\begin{spacing}{1}
+\maketitle
+\end{spacing}
+
+% add an empty page after title page
+\newpage\null\thispagestyle{empty}\newpage
+
+% set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\frontmatter
+% replace PROGRAMME with Data Analytics, Artificial Intelligence, or Artificial Intelligence - Online
+\textbf{DECLARATION} 
+I, NAME, do hereby declare that this thesis entitled THESIS-TITLE is a bonafide record of research work done by me for the award of MSc in Computer Science (PROGRAMME) from National University of Ireland, Galway. It has not been previously submitted, in part or whole, to any university or institution for any degree, diploma, or other qualification. 
+\newline
+
+\begin{tabular}{@{}p{.5in}p{4in}@{}}
+Signature: & ~~\hrulefill \\
+\end{tabular}
+\newpage
+
+
+%%%% uncomment if acknowledgements needed
+%\textbf{Acknowledgement}
+%
+%
+%\newpage\textbf{}
+
+
+% THESIS ABSTRACT
+\begin{abstracts}
+The abstract should summarize the substantive results of the work and not merely list topics to be discussed. An abstract is an outline/brief summary of your paper and your whole project ... 
+
+It should be terse and usually written in the present tense and impersonal style: "A new graph community detection algorithm is proposed based on spectral features. It is compared against several strong baselines ...".
+
+\textbf{Keywords: } keyword1, keyword2, keyword3, keyword4, keyword5
+\end{abstracts}
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+\printglossary[title=List of Acronyms,type=\acronymtype]
+
+\mainmatter
+
+\chapter{Introduction}
+\label{chap:introduction}
+
+This section should be short and highly readable, even to non-experts.
+
+The chapters in this template are typical, but not mandatory. Change them, change the titles, change the order, as needed.
+
+The following is a guideline for number of pages per section:
+
+\begin{itemize}
+\item Abstract 1
+\item Introduction 3-4
+\item Related work 3-6
+\item Background 2-4
+\item Data 1-3
+\item Experimental settings 2-3
+\item Methodology 6-10
+\item Results 4-10
+\item Conclusion 1-3
+\end{itemize}
+
+(total 22-44)
+
+We have given Chapter titles, but you can use \verb+\section+ and \verb+subsection+ to give more fine-grained structure as needed.
+
+You can refer to other chapters/sections using \verb+\ref+, e.g.~``We will describe the proposed new model in detail in Chapter~\ref{chap:methodology}.''
+
+Notice that we must use paired backquotes and apostrophes for correct quotation marks in Latex: ``here is an example''. If we use standard quotation marks they are formatted incorrectly: "here is an example".
+
+Simple equations are written using \verb+$...$+, e.g.~$e^{i\pi} - 1 = 0$.
+
+Figures should be formatted using \verb+\begin{figure}...\end{figure}+, with captions and labels. Figures should then be referred to from the text, e.g.: Figure~\ref{fig:logo} shows an example of a logo.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/logo_NUI.png}
+    \caption{A suitable caption}
+    \label{fig:logo}
+\end{figure}
+
+Refer to Overleaf documentation and other online resources for basic Latex usage, in particular mathematics, emphasis, and citation.
+
+
+\chapter{Background}
+\label{chap:backg}
+
+Here you can give textbook-level knowledge which you might expect that expert researchers can skip but might be helpful to establish the setting and terminology. 
+
+You can also give some general knowledge, eg the number of users of some website or the size of some industry, to help motivate the importance.
+
+\chapter{Related Work}
+\label{chap:rel_work}
+
+The Related Work or Literature Review should stick to strongly relevant papers in high-quality sources. Learn to recognise and avoid spam/predatory/pay-to-publish/vanity journals and conferences. Use newspaper/magazine/blog sources only very rarely and only if truly unavoidable. Cite the originator of an idea, not a random author who used it recently.
+
+If you paste any text from any source, you must quote and cite. If you paste any text and then alter it to avoid quoting and citing, delete it and ask your supervisor for advice on how to avoid plagiarism.
+
+The Related Work section should be synthetic, that is it should identify common themes and issues and connections between papers to form a larger-scale understanding. It should help the reader by giving a taxonomy or categorisation of existing work, i.e.~it should not be a bare list of papers. It should demonstrate critical thinking and judgement, not just rephrase what previous authors have claimed.
+
+Do not write paper titles, e.g.~do not write {\em In a paper titled ``Community Detection in Graphs''}. Just cite.
+
+For citations, use natbib commands. There are two styles, depending on your sentence:
+\begin{itemize}
+\item Parenthetical \verb+\citep{NewmanGirvan2004}+: Community detection in graphs is an interesting problem \citep{NewmanGirvan2004}.
+\item Textual \verb+\citet{NewmanGirvan2004}+: It was shown by \citet{NewmanGirvan2004} that community detection in graphs is an interesting problem.
+\end{itemize}
+
+Add your citations to references.bib which is in the file-tree in Overleaf.
+
+
+
+
+\chapter{Data}
+\label{chap:data}
+
+You might need a chapter about your data and pre-processing, especially if it is a dataset that has not been previously described.
+
+
+\chapter{Methodology}
+\label{chap:methodology}
+
+Here you can describe your proposed new models.
+
+\chapter{Experimental Settings}
+\label{chap:experimental}
+
+Your goal is to give a complete description of your experiments, sufficient for another researcher to read your document and reproduce your results.
+
+\chapter{Results}
+\label{chap:resutls}
+
+Results first, using figures and tables, with little commentary and no interpretation.
+
+Then analysis and interpretation.
+
+\chapter{Conclusion}
+\label{chap:conclusion}
+
+Here you must zoom back out to evaluate the thesis. Mention limitations and weaknesses as well as contributions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{plainnat}                  % to give author-year style
+\renewcommand{\bibname}{References}           % change default name Bibliography to References
+\bibliography{references}                     % References file, references.bib
+\addcontentsline{toc}{chapter}{References}    % add References to TOC
+
+
+%%% uncomment if Appendix needed
+%\appendix
+%\chapter{Appendix-A-Title} 
+%\label{chap:appendix_a}
+
+%\chapter{Appendix-B-Title} 
+%\label{chap:appendix_b}
+
+
+\end{document}
