@@ -32,6 +32,7 @@
 \usepackage{setspace}
 \usepackage[utf8]{inputenc}
 \usepackage[table]{xcolor}
+\usepackage{url}
 \setstretch{1.5}
 %\onehalfspacing
 % SPECIAL COMMANDS
@@ -50,7 +51,7 @@
 % HEADER
 \title{\Large{Thesis Title}}
 
-  \author{Name (ID)}
+  \author{Tapan Vivek Auti (ID)}
   \collegeordept{School of Computer Science}
   \university{National University of Ireland, Galway}
   \crest{\includegraphics[width=75mm]{Figures/logo_NUI.png}}
@@ -105,9 +106,33 @@ Signature: & ~~\hrulefill \\
 
 % THESIS ABSTRACT
 \begin{abstracts}
-The abstract should summarize the substantive results of the work and not merely list topics to be discussed. An abstract is an outline/brief summary of your paper and your whole project ... 
+  The earliest work of using Neural Network for music composition, analysis and  generation can be found around late 1980's \cite{mdolson}, What has changed from then to today is the availability of more discrete resources for data gathering and the variations that can be found in the availability and type of data. Musical data before was available in non symbolic form i.e musical notes etc which was hard to train along with the complexity of training with very less data. The availability of resources has paved a new pathway for more advancements in 'deep learning' \cite{deeplearning} and hence a lot of research has been conducted since then for music generation with Neural Network.
 
-It should be terse and usually written in the present tense and impersonal style: "A new graph community detection algorithm is proposed based on spectral features. It is compared against several strong baselines ...".
+  \cite{jpon} suggests that all earlier work was done using  a single melody.
+  
+  The majority  of the research being conducted for music generation is done using RNN and LSTM  \cite{lstmtemporal}, \cite{rnnmelodies}, \cite{eck}.
+  
+  The first one to use RNN  was \cite{mozer} he provided motivation for  Eck and Schmidhuber, who later were the first ones to apply LSTM.\cite{eckschmid}
+  
+  \cite{abcmusic} - The most significant use of sequential abc files for music generation is done by them using LSTM, they have used two methodologies for it ,one is char rnn which uses a single character vocabulary and other is folk rnn which used transcription token for generation. 
+  
+  Till date only type of research done on music regeneration was mostly on piano rolls which used midi files for regenartion \cite{midinet} , \cite{musegan}
+  
+  \cite{polygan} and all were generally  polyphonic music generation models. Till late 2018 \cite{crnngan} was the only model that used GAN for music production, it used midi files as data but had drawbacks of not being able to generate music using priming melody or chord sequences , these were removed in \cite{midinet} also this used Cnn as their main base model. 
+  
+  After various researches it was proved that CNN is faster than RNN and also easily parallizable \cite{pxlcnn} before this maximum model used RNN only.
+  
+  All the years of research has paved path for various types of music generations, like \cite{edm} tries to reproduce rhythm patterns of electronic music using GAN.
+  
+  Like symbolic data for generation, various studies were also conducted for music generation through non symbolic forms such as raw music files and wave forms \cite{mp3net} was one such successfull model that generted music from raw files., they were able to achieve this with low convolutional GAN with a milestone of low computational power.
+  
+  All the models that used GAN before had one major drawback that due to no or less temporal feature extraction the generated music didn't always sound natural and was unstable to overcome .\cite{dmbgan} proposed a new model that considered temporal features as well and had a self-attention mechanism to enable GAN and introduced a new method of switchable normalization to stabilize network training.
+  
+  A lot of research is being made in music generation considering various aspects of music such as music generation based upon the genre or feel of music, one such proposed model is used in \cite{cvaegan} here the authors took a dataset that has emotions tagged along with song so while music generation the model trains on basis of the feel of the music and produces music on what feel note you want like rowdy, romance, quiet, majestic etc.
+  
+  GANSYNTH in 2019 was the  most recent work that successfully synthesised audio by wave files as input using GAN , they used a specific controlled dataset for music generation and were able to achieve great speed which was claimed to be one thousand time faster generation that \cite{wavenet}
+  
+  The latest research going on has been music generation from lyrics \cite{lstmgan} it used lstm generator and discriminator for generation. ,where in the dataset the lyrics are mapped to melodies but comparatively such data still is very scarce and hence the result of the mapping is not melodies to lyrics.
 
 \textbf{Keywords: } keyword1, keyword2, keyword3, keyword4, keyword5
 \end{abstracts}
@@ -127,7 +152,7 @@ This section should be short and highly readable, even to non-experts.
 
 The chapters in this template are typical, but not mandatory. Change them, change the titles, change the order, as needed.
 
-The following is a guideline for number of pages per section:
+The following is a guideline for number of pages per section:\cite{cvaegan}
 
 \begin{itemize}
 \item Abstract 1
@@ -182,8 +207,8 @@ Do not write paper titles, e.g.~do not write {\em In a paper titled ``Community 
 
 For citations, use natbib commands. There are two styles, depending on your sentence:
 \begin{itemize}
-\item Parenthetical \verb+\citep{NewmanGirvan2004}+: Community detection in graphs is an interesting problem \citep{NewmanGirvan2004}.
-\item Textual \verb+\citet{NewmanGirvan2004}+: It was shown by \citet{NewmanGirvan2004} that community detection in graphs is an interesting problem.
+\item Parenthetical \verb++: Community detection in graphs is an interesting problem .
+\item Textual \verb+\citet{NewmanGirvan2004}+: It was shown by  that community detection in graphs is an interesting problem.
 \end{itemize}
 
 Add your citations to references.bib which is in the file-tree in Overleaf.

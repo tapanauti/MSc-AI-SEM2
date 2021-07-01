@@ -1,0 +1,136 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bao et~al.(2017)Bao, Chen, Wen, Li, and Hua]{cvaegan}
+Jianmin Bao, Dong Chen, Fang Wen, Houqiang Li, and Gang Hua.
+\newblock Cvae-gan: Fine-grained image generation through asymmetric training.
+\newblock In \emph{2017 IEEE International Conference on Computer Vision
+  (ICCV)}, pages 2764--2773, 2017.
+\newblock \doi{10.1109/ICCV.2017.299}.
+
+\bibitem[Boulanger-Lewandowski et~al.(2014)Boulanger-Lewandowski, Mysore, and
+  Hoffman]{lstmtemporal}
+Nicolas Boulanger-Lewandowski, Gautham~J. Mysore, and Matthew Hoffman.
+\newblock Exploiting long-term temporal dependencies in nmf using recurrent
+  neural networks with application to source separation.
+\newblock In \emph{2014 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pages 6969--6973, 2014.
+\newblock \doi{10.1109/ICASSP.2014.6854951}.
+
+\bibitem[Chen and Miikkulainen(2001)]{rnnmelodies}
+Chun-Chi~J. Chen and Risto Miikkulainen.
+\newblock Creating melodies with evolving recurrent neural networks.
+\newblock In \emph{Proceedings of the {INNS-IEEE} International Joint
+  Conference on Neural Networks}, pages 2241--2246, Piscataway, NJ, 2001. IEEE.
+\newblock URL \url{http://nn.cs.utexas.edu/?chen:ijcnn01}.
+
+\bibitem[Deng and Yu(2014)]{deeplearning}
+Li~Deng and Dong Yu.
+\newblock Deep learning: Methods and applications.
+\newblock \emph{Foundations and Trends in Signal Processing}, 7\penalty0
+  (3–4):\penalty0 197--387, 2014.
+\newblock ISSN 1932-8346.
+\newblock \doi{10.1561/2000000039}.
+\newblock URL \url{http://dx.doi.org/10.1561/2000000039}.
+
+\bibitem[Dolson(1989)]{mdolson}
+M.~Dolson.
+\newblock Machine tongues xii : Neural networks.
+\newblock \emph{Computer Music Journal}, 13:\penalty0 28--40, 1989.
+
+\bibitem[Dong and Yang(2018)]{polygan}
+Hao-Wen Dong and Yi-Hsuan Yang.
+\newblock Convolutional generative adversarial networks with binary neurons for
+  polyphonic music generation, 2018.
+
+\bibitem[Dong et~al.(2017)Dong, Hsiao, Yang, and Yang]{musegan}
+Hao-Wen Dong, Wen-Yi Hsiao, Li-Chia Yang, and Yi-Hsuan Yang.
+\newblock Musegan: Multi-track sequential generative adversarial networks for
+  symbolic music generation and accompaniment, 2017.
+
+\bibitem[Eck and Lapamle(2008)]{eck}
+Douglas Eck and Jasmin Lapamle.
+\newblock Learning musical structure directly from sequences of music, 2008.
+
+\bibitem[Eck and Schmidhuber(2002)]{eckschmid}
+Douglas Eck and J{\"u}rgen Schmidhuber.
+\newblock Learning the long-term structure of the blues.
+\newblock In Jos{\'e}~R. Dorronsoro, editor, \emph{Artificial Neural Networks
+  --- ICANN 2002}, pages 284--289, Berlin, Heidelberg, 2002. Springer Berlin
+  Heidelberg.
+\newblock ISBN 978-3-540-46084-8.
+
+\bibitem[Guan et~al.(2019)Guan, Yu, and Yang]{dmbgan}
+Faqian Guan, Chunyan Yu, and Suqiong Yang.
+\newblock A gan model with self-attention mechanism to generate
+  multi-instruments symbolic music.
+\newblock In \emph{2019 International Joint Conference on Neural Networks
+  (IJCNN)}, pages 1--6, 2019.
+\newblock \doi{10.1109/IJCNN.2019.8852291}.
+
+\bibitem[Mogren(2016)]{crnngan}
+Olof Mogren.
+\newblock C-rnn-gan: Continuous recurrent neural networks with adversarial
+  training, 2016.
+
+\bibitem[MOZER(1994)]{mozer}
+MICHAEL~C. MOZER.
+\newblock Neural network music composition by prediction: Exploring the
+  benefits of psychoacoustic constraints and multi-scale processing.
+\newblock \emph{Connection Science}, 6\penalty0 (2-3):\penalty0 247--280, 1994.
+\newblock \doi{10.1080/09540099408915726}.
+\newblock URL \url{https://doi.org/10.1080/09540099408915726}.
+
+\bibitem[Pons(2015)]{jpon}
+Jordi Pons.
+\newblock Deep learning for music information research.
+\newblock Technical report, Universitat Pompeu Fabra, 2015.
+
+\bibitem[Sturm et~al.(2016)Sturm, Santos, Ben-Tal, and Korshunova]{abcmusic}
+Bob Sturm, João Santos, Oded Ben-Tal, and Iryna Korshunova.
+\newblock Music transcription modelling and composition using deep learning.
+\newblock \emph{arXiv}, 04 2016.
+
+\bibitem[Tokui(2020)]{edm}
+Nao Tokui.
+\newblock Can gan originate new electronic dance music genres? -- generating
+  novel rhythm patterns using gan with genre ambiguity loss, 2020.
+
+\bibitem[van~den Broek(2021)]{mp3net}
+Korneel van~den Broek.
+\newblock Mp3net: coherent, minute-long music generation from raw audio with a
+  simple convolutional gan, 2021.
+
+\bibitem[van~den Oord et~al.(2016{\natexlab{a}})van~den Oord, Kalchbrenner,
+  Vinyals, Espeholt, Graves, and Kavukcuoglu]{pxlcnn}
+Aaron van~den Oord, Nal Kalchbrenner, Oriol Vinyals, Lasse Espeholt, Alex
+  Graves, and Koray Kavukcuoglu.
+\newblock Conditional image generation with pixelcnn decoders,
+  2016{\natexlab{a}}.
+
+\bibitem[van~den Oord et~al.(2016{\natexlab{b}})van~den Oord, Dieleman, Zen,
+  Simonyan, Vinyals, Graves, Kalchbrenner, Senior, and Kavukcuoglu]{wavenet}
+Aäron van~den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals,
+  Alexander Graves, Nal Kalchbrenner, Andrew Senior, and Koray Kavukcuoglu.
+\newblock Wavenet: A generative model for raw audio.
+\newblock In \emph{Arxiv}, 2016{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/1609.03499}.
+
+\bibitem[Yang et~al.(2017)Yang, Chou, and Yang]{midinet}
+Li-Chia Yang, Szu-Yu Chou, and Yi-Hsuan Yang.
+\newblock Midinet: A convolutional generative adversarial network for
+  symbolic-domain music generation, 2017.
+
+\bibitem[Yu et~al.(2021)Yu, Srivastava, and Canales]{lstmgan}
+Yi~Yu, Abhishek Srivastava, and Simon Canales.
+\newblock Conditional lstm-gan for melody generation from lyrics.
+\newblock \emph{arXiv}, 17\penalty0 (1), 2021.
+\newblock ISSN 1551-6857.
+\newblock \doi{10.1145/3424116}.
+\newblock URL \url{https://doi.org/10.1145/3424116}.
+
+\end{thebibliography}
