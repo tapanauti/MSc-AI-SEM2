@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.22)  1 JUL 2021 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.22)  3 JUL 2021 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,57 +610,62 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks42
 \inpenc@posthook=\toks43
+) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip93
+\aftertitleunit=\skip94
+\ttl@plus=\dimen191
+\ttl@minus=\dimen192
+\ttl@toksa=\toks44
+\titlewidth=\dimen193
+\titlewidthlast=\dimen194
+\titlewidthfirst=\dimen195
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
-\l__pdf_internal_box=\box65
+\l__pdf_internal_box=\box66
 ) (./Thesis_template.aux)
 \openout1 = `Thesis_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count332
-\scratchdimen=\dimen191
-\scratchbox=\box66
+\scratchdimen=\dimen196
+\scratchbox=\box67
 \nofMPsegments=\count333
 \nofMParguments=\count334
-\everyMPshowfont=\toks44
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count335
-\MPscratchDim=\dimen192
+\MPscratchDim=\dimen197
 \MPnumerator=\count336
 \makeMPintoPDFobject=\count337
-\everyMPtoPDFconversion=\toks45
+\everyMPtoPDFconversion=\toks46
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (c:/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.jpg,.pdf,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 77.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -670,14 +675,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count338
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
  (./Thesis_template.out) (./Thesis_template.out)
 \@outlinefile=\write4
 \openout4 = `Thesis_template.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 76.
+Package backref Info: ** backref set up for natbib ** on input line 77.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -685,128 +690,181 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<Figures/logo_NUI.png, id=40, 451.6875pt x 237.13594pt>
+<Figures/logo_NUI.png, id=76, 451.6875pt x 237.13594pt>
 File: Figures/logo_NUI.png Graphic file (type png)
 <use Figures/logo_NUI.png>
-Package pdftex.def Info: Figures/logo_NUI.png  used on input line 78.
+Package pdftex.def Info: Figures/logo_NUI.png  used on input line 79.
 (pdftex.def)             Requested size: 213.39566pt x 112.03284pt.
  [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/logo_NUI.png>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (16.08669pt too wide) in paragraph at lines 95--95
+Overfull \hbox (16.08669pt too wide) in paragraph at lines 100--100
 []|\OT1/cmr/m/n/12 Signature:| 
  []
 
 [1
 
-]
-Overfull \hbox (1.06131pt too wide) in paragraph at lines 109--110
-\OT1/cmr/m/n/12 anal-y-sis and gen-er-a-tion can be found around late 1980's [][][]Dol-son[][] ([][]1989[][]),
- []
-
-[2] [3] [4] (./Thesis_template.toc)
+] [2] [3] (./Thesis_template.toc)
 \tf@toc=\write5
 \openout5 = `Thesis_template.toc'.
 
- [5
+ [4
 
 ] (./Thesis_template.lof)
 \tf@lof=\write6
 \openout6 = `Thesis_template.lof'.
 
- [6
-
-] (./Thesis_template.lot)
-\tf@lot=\write7
-\openout7 = `Thesis_template.lot'.
-
 
 No file Thesis_template.acr.
-[7
+[5
 
 ]
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.172 
+l.143 
        [1
 
 
-]
-File: Figures/logo_NUI.png Graphic file (type png)
-<use Figures/logo_NUI.png>
-Package pdftex.def Info: Figures/logo_NUI.png  used on input line 182.
-(pdftex.def)             Requested size: 206.28247pt x 108.29865pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 \chapter
-              {Background} [2]
+l.167 \section{Flow of Thesis}
+                               [2] [3]
 Chapter 2.
-[3
-
-]
-Chapter 3.
+<Figures/dnn.png, id=176, 346.22372pt x 192.60796pt>
+File: Figures/dnn.png Graphic file (type png)
+<use Figures/dnn.png>
+Package pdftex.def Info: Figures/dnn.png  used on input line 193.
+(pdftex.def)             Requested size: 330.05322pt x 183.61427pt.
 [4
 
-] [5]
+ <./Figures/dnn.png>]
+<Figures/rnn.png, id=184, 511.15968pt x 419.31656pt>
+File: Figures/rnn.png Graphic file (type png)
+<use Figures/rnn.png>
+Package pdftex.def Info: Figures/rnn.png  used on input line 205.
+(pdftex.def)             Requested size: 206.28247pt x 169.21443pt.
+<Figures/sigmoid.png, id=186, 430.60875pt x 220.825pt>
+File: Figures/sigmoid.png Graphic file (type png)
+<use Figures/sigmoid.png>
+Package pdftex.def Info: Figures/sigmoid.png  used on input line 214.
+(pdftex.def)             Requested size: 206.28247pt x 105.78925pt.
+ [5 <./Figures/rnn.png>]
+<Figures/relu.png, id=192, 352.31625pt x 232.87pt>
+File: Figures/relu.png Graphic file (type png)
+<use Figures/relu.png>
+Package pdftex.def Info: Figures/relu.png  used on input line 222.
+(pdftex.def)             Requested size: 206.28247pt x 136.34387pt.
+<Figures/tanh.png, id=193, 429.605pt x 237.88875pt>
+File: Figures/tanh.png Graphic file (type png)
+<use Figures/tanh.png>
+Package pdftex.def Info: Figures/tanh.png  used on input line 230.
+(pdftex.def)             Requested size: 206.28247pt x 114.22885pt.
+ [6 <./Figures/sigmoid.png> <./Figures/relu.png> <./Figures/tanh.png>]
+<Figures/lstm.png, id=203, 639.89063pt x 536.75531pt>
+File: Figures/lstm.png Graphic file (type png)
+<use Figures/lstm.png>
+Package pdftex.def Info: Figures/lstm.png  used on input line 241.
+(pdftex.def)             Requested size: 371.30594pt x 311.46571pt.
+ [7 <./Figures/lstm.png>]
+<Figures/cnn.png, id=217, 1200.73593pt x 501.37312pt>
+File: Figures/cnn.png Graphic file (type png)
+<use Figures/cnn.png>
+Package pdftex.def Info: Figures/cnn.png  used on input line 256.
+(pdftex.def)             Requested size: 371.30594pt x 155.04153pt.
+ [8 <./Figures/cnn.png>]
+<Figures/gan.png, id=227, 335.00156pt x 396.7322pt>
+File: Figures/gan.png Graphic file (type png)
+<use Figures/gan.png>
+Package pdftex.def Info: Figures/gan.png  used on input line 269.
+(pdftex.def)             Requested size: 206.28247pt x 244.29456pt.
+ [9 <./Figures/gan.png>] [10] [11]
+Chapter 3.
+[12
+
+] [13] [14] [15]
 Chapter 4.
-[6
-
-]
-Chapter 5.
-[7
-
-]
-Chapter 6.
-[8
-
-]
-Chapter 7.
-[9
-
-]
-Chapter 8.
 (./Thesis_template.bbl (./Thesis_template.brf)
-\tf@brf=\write8
-\openout8 = `Thesis_template.brf'.
+\tf@brf=\write7
+\openout7 = `Thesis_template.brf'.
 
- [10
+ [16
 
-] [11
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/12 Tanesh Balodi.  Con-vo-lu-tional neu-ral net-work (cnn): Graph-
+ []
 
-] [12]) [13] (./Thesis_template.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 i-cal vi-su-al-iza-tion with python code ex-pla-na-tion, Sep
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 2019.  URL [][]$\OT1/cmtt/m/n/12 https : / / www . analyticssteps . com / blogs /
+ []
+
+
+Overfull \hbox (56.724pt too wide) in paragraph at lines 14--14
+\OT1/cmtt/m/n/12 convolutional-[]neural-[]network-[]cnn-[]graphical-[]visualization-[]code-[]explanation$[][]\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/12 Jason Brown-lee.  What are gan, Jun 2019.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\OT1/cmr/m/n/12 URL [][]$\OT1/cmtt/m/n/12 https : / / machinelearningmastery . com /
+ []
+
+[17
+
+] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\OT1/cmr/m/n/12 Chris Wal-shaw.  how-to-understand-abc-the-basics, 2010.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\OT1/cmr/m/n/12 URL [][]$\OT1/cmtt/m/n/12 https : / / abcnotation . com / blog / 2010 / 01 / 31 /
+ []
+
+[19]) [20] (./Thesis_template.aux)
 Package rerunfilecheck Info: File `Thesis_template.out' has not changed.
-(rerunfilecheck)             Checksum: 693CAD2CA600935E7E9794C8426DA45D;974.
+(rerunfilecheck)             Checksum: 701F39299BBA363E7434F3BFD889E562;2783.
 Package rerunfilecheck Info: File `Thesis_template.brf' has not changed.
-(rerunfilecheck)             Checksum: 1FD9AF239AE16490B40D7E37B2CC8E18;1078.
+(rerunfilecheck)             Checksum: 2434632ED8E35854233BDCB5A3DB4CBC;1508.
  ) 
 Here is how much of TeX's memory you used:
- 21196 strings out of 478510
- 345573 string characters out of 5853586
- 770422 words of memory out of 5000000
- 38698 multiletter control sequences out of 15000+600000
+ 21592 strings out of 478510
+ 350668 string characters out of 5853586
+ 779490 words of memory out of 5000000
+ 39061 multiletter control sequences out of 15000+600000
  411092 words of font info for 55 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 125i,11n,122p,1099b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Thesis_template.pdf (22 pages, 200503 bytes).
+ 125i,12n,122p,1360b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Thesis_template.pdf (27 pages, 730082 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

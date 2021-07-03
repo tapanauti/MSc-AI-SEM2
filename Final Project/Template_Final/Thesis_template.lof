@@ -1,10 +1,13 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A suitable caption\relax }}{2}{figure.caption.4}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Deep Neural Network\relax }}{4}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Recurrent Neural Network\relax }}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sigmoid Function\relax }}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Relu Function\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tanh Function\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces LSTM Structure by \cite {yan}\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ConvNets Architecture by \cite {cnnfig}\relax }}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Architecture of GAN as defined by \cite {brownlee_2019}\relax }}{9}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
