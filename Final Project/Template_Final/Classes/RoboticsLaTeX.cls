@@ -245,7 +245,7 @@
 % Abstract is on a separate page, with content appearing in a quote environment and title "Abstract" in large, bold, centered style.
 \newenvironment{abstracts} {\begin{alwayssingle} \pagestyle{empty}
   \begin{center}
-  \vspace*{1.5cm}
+  \vspace*{-1.5cm}
   {\Large \bfseries  Abstract}
   \end{center}
   \vspace{0.5cm}

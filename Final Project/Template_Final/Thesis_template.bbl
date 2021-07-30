@@ -12,13 +12,6 @@ Tanesh Balodi.
 \newblock URL
   \url{https://www.analyticssteps.com/blogs/convolutional-neural-network-cnn-graphical-visualization-code-explanation}.
 
-\bibitem[Bao et~al.(2017)Bao, Chen, Wen, Li, and Hua]{cvaegan}
-Jianmin Bao, Dong Chen, Fang Wen, Houqiang Li, and Gang Hua.
-\newblock Cvae-gan: Fine-grained image generation through asymmetric training.
-\newblock In \emph{2017 IEEE International Conference on Computer Vision
-  (ICCV)}, pages 2764--2773, 2017.
-\newblock \doi{10.1109/ICCV.2017.299}.
-
 \bibitem[Boulanger-Lewandowski et~al.(2014)Boulanger-Lewandowski, Mysore, and
   Hoffman]{lstmtemporal}
 Nicolas Boulanger-Lewandowski, Gautham~J. Mysore, and Matthew Hoffman.
@@ -100,6 +93,13 @@ Faqian Guan, Chunyan Yu, and Suqiong Yang.
 \newblock In \emph{2019 International Joint Conference on Neural Networks
   (IJCNN)}, pages 1--6, 2019.
 \newblock \doi{10.1109/IJCNN.2019.8852291}.
+
+\bibitem[Huang and Huang(2020)]{cvaegan}
+Chih-Fang Huang and Cheng-Yuan Huang.
+\newblock Emotion-based ai music generation system with cvae-gan.
+\newblock In \emph{2020 IEEE Eurasia Conference on IOT, Communication and
+  Engineering (ECICE)}, pages 220--222, 2020.
+\newblock \doi{10.1109/ECICE50847.2020.9301934}.
 
 \bibitem[IBM(2020)]{ibm}
 IBM.
