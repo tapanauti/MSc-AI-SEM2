@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.22)  8 JUL 2021 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.22)  1 SEP 2021 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -524,24 +524,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./Thesis_template.aux)
 \openout1 = `Thesis_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count312
@@ -561,7 +561,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 78.
+Package hyperref Info: Link coloring ON on input line 80.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -571,133 +571,199 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count318
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
  (./Thesis_template.out) (./Thesis_template.out)
 \@outlinefile=\write4
 \openout4 = `Thesis_template.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 78.
+Package backref Info: ** backref set up for natbib ** on input line 80.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-<Figures/logo_NUI.png, id=80, 451.6875pt x 237.13594pt>
+<Figures/logo_NUI.png, id=128, 451.6875pt x 237.13594pt>
 File: Figures/logo_NUI.png Graphic file (type png)
 <use Figures/logo_NUI.png>
-Package pdftex.def Info: Figures/logo_NUI.png  used on input line 80.
+Package pdftex.def Info: Figures/logo_NUI.png  used on input line 82.
 (pdftex.def)             Requested size: 213.39566pt x 112.03284pt.
  [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/logo_NUI.png>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 103.
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 103.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (16.08669pt too wide) in paragraph at lines 102--102
-[]|\OT1/cmr/m/n/12 Signature:| 
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Sign.png, id=142, 149.05687pt x 73.77562pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Sign.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Sign.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Sign.png  used on input line 104.
+(pdftex.def)             Requested size: 74.52824pt x 36.88771pt.
+
+Overfull \hbox (90.61493pt too wide) in paragraph at lines 104--105
+[]|\OT1/cmr/m/n/12 Signature:[]| 
  []
 
 [1
 
-] [2] (./Thesis_template.toc)
+ <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Sign.png>] [2] (./Thesis_template.toc [3
+
+])
 \tf@toc=\write5
 \openout5 = `Thesis_template.toc'.
 
- [3
-
-] (./Thesis_template.lof)
+ [4] (./Thesis_template.lof)
 \tf@lof=\write6
 \openout6 = `Thesis_template.lof'.
 
- [4
+ [5
 
 ]
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 
+l.147 
        [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.169 \section{Flow of Thesis}
-                               [2] [3]
+l.171 
+       [2] [3] [4]
 Chapter 2.
-<Figures/dnn.png, id=177, 346.22372pt x 192.60796pt>
+<Figures/dnn.png, id=248, 346.22372pt x 192.60796pt>
 File: Figures/dnn.png Graphic file (type png)
 <use Figures/dnn.png>
-Package pdftex.def Info: Figures/dnn.png  used on input line 195.
+Package pdftex.def Info: Figures/dnn.png  used on input line 206.
 (pdftex.def)             Requested size: 330.05322pt x 183.61427pt.
-[4
+[5
 
  <./Figures/dnn.png>]
-<Figures/rnn.png, id=185, 511.15968pt x 419.31656pt>
+<Figures/rnn.png, id=256, 511.15968pt x 419.31656pt>
 File: Figures/rnn.png Graphic file (type png)
 <use Figures/rnn.png>
-Package pdftex.def Info: Figures/rnn.png  used on input line 207.
+Package pdftex.def Info: Figures/rnn.png  used on input line 218.
 (pdftex.def)             Requested size: 206.28247pt x 169.21443pt.
-<Figures/sigmoid.png, id=187, 430.60875pt x 220.825pt>
+<Figures/sigmoid.png, id=257, 430.60875pt x 220.825pt>
 File: Figures/sigmoid.png Graphic file (type png)
 <use Figures/sigmoid.png>
-Package pdftex.def Info: Figures/sigmoid.png  used on input line 216.
+Package pdftex.def Info: Figures/sigmoid.png  used on input line 227.
 (pdftex.def)             Requested size: 206.28247pt x 105.78925pt.
- [5 <./Figures/rnn.png>]
-<Figures/relu.png, id=193, 352.31625pt x 232.87pt>
+ [6 <./Figures/rnn.png>]
+<Figures/relu.png, id=264, 352.31625pt x 232.87pt>
 File: Figures/relu.png Graphic file (type png)
 <use Figures/relu.png>
-Package pdftex.def Info: Figures/relu.png  used on input line 224.
+Package pdftex.def Info: Figures/relu.png  used on input line 235.
 (pdftex.def)             Requested size: 206.28247pt x 136.34387pt.
-<Figures/tanh.png, id=194, 429.605pt x 237.88875pt>
+<Figures/tanh.png, id=265, 429.605pt x 237.88875pt>
 File: Figures/tanh.png Graphic file (type png)
 <use Figures/tanh.png>
-Package pdftex.def Info: Figures/tanh.png  used on input line 232.
+Package pdftex.def Info: Figures/tanh.png  used on input line 243.
 (pdftex.def)             Requested size: 206.28247pt x 114.22885pt.
- [6 <./Figures/sigmoid.png> <./Figures/relu.png> <./Figures/tanh.png>]
-<Figures/lstm.png, id=203, 639.89063pt x 536.75531pt>
+ [7 <./Figures/sigmoid.png> <./Figures/relu.png> <./Figures/tanh.png>]
+<Figures/lstm.png, id=274, 639.89063pt x 536.75531pt>
 File: Figures/lstm.png Graphic file (type png)
 <use Figures/lstm.png>
-Package pdftex.def Info: Figures/lstm.png  used on input line 243.
+Package pdftex.def Info: Figures/lstm.png  used on input line 254.
 (pdftex.def)             Requested size: 371.30594pt x 311.46571pt.
- [7 <./Figures/lstm.png>]
-<Figures/cnn.png, id=218, 1200.73593pt x 501.37312pt>
+ [8 <./Figures/lstm.png>]
+<Figures/cnn.png, id=288, 1200.73593pt x 501.37312pt>
 File: Figures/cnn.png Graphic file (type png)
 <use Figures/cnn.png>
-Package pdftex.def Info: Figures/cnn.png  used on input line 258.
+Package pdftex.def Info: Figures/cnn.png  used on input line 268.
 (pdftex.def)             Requested size: 371.30594pt x 155.04153pt.
- [8 <./Figures/cnn.png>]
-<Figures/gan.png, id=228, 335.00156pt x 396.7322pt>
+ [9 <./Figures/cnn.png>]
+<Figures/gan.png, id=298, 335.00156pt x 396.7322pt>
 File: Figures/gan.png Graphic file (type png)
 <use Figures/gan.png>
-Package pdftex.def Info: Figures/gan.png  used on input line 271.
+Package pdftex.def Info: Figures/gan.png  used on input line 282.
 (pdftex.def)             Requested size: 206.28247pt x 244.29456pt.
- [9 <./Figures/gan.png>] [10] [11]
+ [10 <./Figures/gan.png>] [11] [12]
 Chapter 3.
-[12
+[13
 
-] [13] [14] [15] [16]
+] [14] [15] [16] [17]
 Chapter 4.
-[17
+[18
+
+] [19]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagegen.png, id=445, 433.62pt x 184.69pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagegen.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagegen.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagegen.png  used on input line 386.
+(pdftex.def)             Requested size: 303.53192pt x 129.2821pt.
+ [20]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture1.png, id=450, 167.87718pt x 228.10219pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture1.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture1.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture1.png  used on input line 394.
+(pdftex.def)             Requested size: 218.24031pt x 296.53278pt.
+ [21 <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagegen.png> <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture1.png>]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagedis.png, id=458, 405.515pt x 184.69pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagedis.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagedis.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagedis.png  used on input line 417.
+(pdftex.def)             Requested size: 283.85855pt x 129.2821pt.
+ [22 <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//imagedis.png>]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture2.png, id=465, 169.38281pt x 225.84375pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture2.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture2.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture2.png  used on input line 424.
+(pdftex.def)             Requested size: 220.19762pt x 293.59682pt.
+ [23 <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture2.png>]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//image.png, id=472, 414.54875pt x 296.10625pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//image.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//image.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//image.png  used on input line 445.
+(pdftex.def)             Requested size: 290.18214pt x 207.27295pt.
+ [24 <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//image.png>] [25]
+Chapter 5.
+[26
+
+]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture.png, id=491, 333.49594pt x 219.82124pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture.png  used on input line 476.
+(pdftex.def)             Requested size: 400.19312pt x 263.78415pt.
+ [27] [28 <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//Capture.png>]
+<C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//loss.png, id=502, 433.62pt x 289.08pt>
+File: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//loss.png Graphic file (type png)
+<use C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//loss.png>
+Package pdftex.def Info: C:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//loss.png  used on input line 500.
+(pdftex.def)             Requested size: 520.3414pt x 346.89426pt.
+
+Overfull \hbox (107.77644pt too wide) in paragraph at lines 500--501
+[][] 
+ []
+
+[29 <c:/Users/CS-Guest-2/Desktop/Nuig/MSc_AI/MSc-AI-SEM2/Final Project/images//loss.png>] [30]
+Overfull \hbox (0.96547pt too wide) in paragraph at lines 570--571
+\OT1/cmr/m/n/12 cor-rectly and were not able to dif-fer-en-ti-ate be-tween hu-man and machine-generated
+ []
+
+[31]
+Chapter 6.
+[32
 
 ] (./Thesis_template.bbl (./Thesis_template.brf)
 \tf@brf=\write7
 \openout7 = `Thesis_template.brf'.
 
- [18]
+ [33]
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
 []\OT1/cmr/m/n/12 Tanesh Balodi.  Con-vo-lu-tional neu-ral net-work (cnn): Graph-
  []
@@ -727,37 +793,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--34
 \OT1/cmr/m/n/12 URL [][]$\OT1/cmtt/m/n/12 https : / / machinelearningmastery . com /
  []
 
-[19
+[34
 
-] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+] [35]
+Underfull \hbox (badness 4072) in paragraph at lines 131--131
+[]\OT1/cmr/m/n/12 Thesis MUN.  Gan and reels.  http://www.cs.mun.ca/ kol/GANs-n-
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\OT1/cmr/m/n/12 Chris Wal-shaw.  how-to-understand-abc-the-basics, 2010.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 \OT1/cmr/m/n/12 URL [][]$\OT1/cmtt/m/n/12 https : / / abcnotation . com / blog / 2010 / 01 / 31 /
  []
 
-[21]) [22] (./Thesis_template.aux)
+) [37]
+Appendix A.
+[38
+
+]
+Appendix B.
+[39
+
+] (./Thesis_template.aux)
 Package rerunfilecheck Info: File `Thesis_template.out' has not changed.
-(rerunfilecheck)             Checksum: 76B4E2A5F9A84A4073E2F9E33D2A46E9;2976.
+(rerunfilecheck)             Checksum: B465011E452E3B0DDBAB570CC57C52DF;4744.
 Package rerunfilecheck Info: File `Thesis_template.brf' has not changed.
-(rerunfilecheck)             Checksum: 57A348A4E5BE97E3572D7F90C2D0C6F0;1827.
+(rerunfilecheck)             Checksum: 64024F5CBEFEFE287F848A557F57B1C5;1999.
  ) 
 Here is how much of TeX's memory you used:
- 16001 strings out of 478510
- 242128 string characters out of 5853586
- 630990 words of memory out of 5000000
- 33573 multiletter control sequences out of 15000+600000
- 411092 words of font info for 55 fonts, out of 8000000 for 9000
+ 16142 strings out of 478510
+ 247747 string characters out of 5853586
+ 631152 words of memory out of 5000000
+ 33673 multiletter control sequences out of 15000+600000
+ 411399 words of font info for 56 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 125i,12n,122p,1799b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Thesis_template.pdf (28 pages, 732848 bytes).
+ 125i,14n,122p,1783b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Thesis_template.pdf (46 pages, 871690 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
- 85 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 574 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
